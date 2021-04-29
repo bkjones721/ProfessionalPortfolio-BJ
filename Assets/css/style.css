@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #d9dcd6;
+    background-color: whitesmoke;
 }
 
  header{
@@ -46,9 +46,6 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
-}
 
 .hero {
     height: 800px;
@@ -104,12 +101,15 @@ p {
 }
 
 .sectionmain {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 25px;
+    padding: 10px;
+    
+    
+
 }
 
 
@@ -132,4 +132,33 @@ footer {
 
 footer h2 {
     font-size: 20px;
+}
+.leftnav {
+    width: 20%;
+    height: 20%;
+    border-right: 2px solid black;
+    font-size: 2vw;
+    
+}
+
+.sectionabout{
+    font-size: 1.25vw;
+     line-height: 3px;
+
+}
+
+.sectionwork{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.worksections{
+    border: 1px solid rgb(96, 63, 63);
+    min-height: 150px;
+    max-height: 150px;
+    display: flex;
+    align-items: flex-end;
+    flex-basis: cal(50% - len);
 }
